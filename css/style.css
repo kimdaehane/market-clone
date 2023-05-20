@@ -8,7 +8,10 @@ body {
     "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     sans-serif;
 }
-
+:root {
+  --button-primary: #fe6f0f;
+  --button-hover: #fe6f0f;
+}
 .media-info-msg {
   position: fixed;
   top: 0;

@@ -25,7 +25,21 @@ footer {
   cursor: pointer;
 }
 .footer-icons-desc {
-  font-size: 10px;
   font-weight: bold;
   margin-top: 5px;
+  transform: (0.8);
+}
+@keyframes icons-둥-둥 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.footer-icons:hover {
+  animation: 1s icons-둥-둥;
 }
